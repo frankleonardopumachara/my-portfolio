@@ -5,7 +5,7 @@ export const Hero = () => {
             <div className='main-hero'>
 
                 <img className='hero-image rounded-full inline'
-                     src='../../public/my-photo.jpeg'
+                     src='/my-portfolio/my-photo.jpeg'
                      alt="Frank in Bariloche, Argentina"
                 />
 
@@ -20,7 +20,7 @@ export const Hero = () => {
 
             <div className='bottom-hero'>
                 <img className='bottom-hero-image inline'
-                     src='../../public/hero-inferior.svg'
+                     src='/my-portfolio/hero-inferior.svg'
                      alt="Mi stack"
                 />
             </div>

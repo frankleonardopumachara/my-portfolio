@@ -4,7 +4,7 @@ export const Footer = () => {
         <footer id='contact' className='dark-section flex flex-col align-middle justify-center'>
             <div className='flex flex-shrink-0 justify-center'>
                 <img className='h-8 w-auto lg:block bg-amber-500 rounded'
-                     src='../../public/icons8-consola-24.png'
+                     src='/my-portfolio/icons8-consola-24.png'
                      alt='terminal logo'
                 />
             </div>

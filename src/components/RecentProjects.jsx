@@ -9,21 +9,21 @@ export const RecentProjects = () => {
                 description: 'Aplicacion de control de signos vitales',
                 linkToLive: 'https://colombiana-transplantes-beta.web.app',
                 linkToGithub: 'https://github.com',
-                imgLink: '../../public/Colombiana-Trasplantes-APP-1.png',
+                imgLink: '/my-portfolio/Colombiana-Trasplantes-APP-1.png',
             },
             {
                 title: 'Beland',
                 description: 'Aplicacion de criptomonedas',
                 linkToLive: 'http://frontend-admin.beland-dev.com',
                 linkToGithub: 'https://github.com',
-                imgLink: '../../public/Beland-App-1.png',
+                imgLink: '/my-portfolio/Beland-App-1.png',
             },
             {
                 title: 'Tienda Ecommerce',
                 description: 'Aplicacion ecommerce de venta de dispositivos',
                 linkToLive: 'https://google.com',
                 linkToGithub: 'https://github.com',
-                imgLink: '../../public/Sitio-ecommerce.png',
+                imgLink: '/my-portfolio/Sitio-ecommerce.png',
             }
         ]
     )
