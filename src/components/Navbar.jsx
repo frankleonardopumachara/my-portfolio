@@ -74,12 +74,12 @@ export const Navbar = () => {
 
                         <div className='flex flex-shrink-0 items-center'>
                             <img className='block h-8 w-auto lg:hidden'
-                                 src='../../docs/assets/icons8-consola-24.png'
+                                 src='/docs/assets/icons8-consola-24.png'
                                  alt='terminal logo'
                             />
 
                             <img className='hidden h-8 w-auto lg:block'
-                                 src='../../docs/assets/icons8-consola-24.png'
+                                 src='/docs/assets/icons8-consola-24.png'
                                  alt='terminal logo'
                             />
                         </div>
