@@ -1,14 +1,29 @@
+import { proofCards } from "../content/portfolio";
+import { SectionTitle } from "./SectionTitle";
+
 export const AboutMe = () => {
     return (
-        <section id='about-me' className='about-me dark-section'>
-            <div className='container'>
-                <h2 className='section-title'>Conoce a Frank</h2>
-                <p className='section-text'>
-                    Soy desarrollador de software con más de 4 años de experiencia colaborando en proyecto de gran
-                    impacto, me especializo en Node.js con TypeScript, he colaborado en proyectos de diferentes países
-                    como España, Colombia, Argentina, Vietnam, USA y Canadá.
-                </p>
+        <section className="section-shell" id="signal">
+            <div className="container">
+                <SectionTitle
+                    eyebrow="Perfil"
+                    title="No vendo humo visual. Vendo criterio técnico aplicado a productos sensibles."
+                    description="La propuesta de valor del portfolio tenía que alinearse a tu realidad: backend para fintech, banca, cloud y dominio complejo. Por eso esta versión prioriza señal, profundidad y confianza."
+                />
+
+                <div className="proof-grid">
+                    {proofCards.map((card) => (
+                        <article
+                            key={card.title}
+                            className={`proof-card accent-${card.accent}`}
+                            data-animate="rise"
+                        >
+                            <h3>{card.title}</h3>
+                            <p>{card.description}</p>
+                        </article>
+                    ))}
+                </div>
             </div>
         </section>
-    )
-}
+    );
+};
