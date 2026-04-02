@@ -28,7 +28,7 @@ export const portfolioContent = {
         localeLabel: "Idioma",
         hero: {
             eyebrow: "Backend engineer para fintech, banca y sistemas cloud",
-            title: "Diseño plataformas transaccionales para productos que no pueden darse el lujo de fallar.",
+            title: "Convierto ideas ambiciosas en software que puede perdurar, escalar y ganarse la confianza.",
             description:
                 "Soy Frank Leonardo Puma Chara. Construyo backend en Node.js y NestJS para pagos, transferencias y backoffice financiero, con foco en resiliencia y claridad de dominio.",
             highlights: [
@@ -272,7 +272,7 @@ export const portfolioContent = {
         localeLabel: "Language",
         hero: {
             eyebrow: "Backend engineer for fintech, banking, and cloud systems",
-            title: "I design transactional platforms for products that cannot afford to fail.",
+            title: "I turn ambitious ideas into software that can last, scale, and be trusted.",
             description:
                 "I am Frank Leonardo Puma Chara. I build Node.js and NestJS backends for payments, transfers, and financial backoffice with a focus on resilience and domain clarity.",
             highlights: [
